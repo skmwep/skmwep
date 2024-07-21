@@ -465,7 +465,7 @@ def broadcast_message(message):
         else:
             response = "Please provide a message to broadcast."
     else:
-        response = "Only @Ghokggyih can run this command."
+        response = "Only @skmwep can run this command."
 
     bot.reply_to(message, response)
 
