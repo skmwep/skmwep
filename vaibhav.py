@@ -10,10 +10,10 @@ from threading import Timer
 import pytz
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7402344991:AAEO50oQLETKv8W7gwUSYI77BC7koLdy7X4')
+bot = telebot.TeleBot('7242659727:AAGGoB-e42Mp4PWMYxWJSm7gknkOScG6_TA')
 
 # Admin user IDs
-admin_id = ["2136214036","1770317273"]
+admin_id = ["2136214036","6685164810"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -465,7 +465,7 @@ def broadcast_message(message):
         else:
             response = "Please provide a message to broadcast."
     else:
-        response = "Only @Ghokggyih can run this command."
+        response = "Only @skmwep can run this command."
 
     bot.reply_to(message, response)
 
