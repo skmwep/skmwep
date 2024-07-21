@@ -13,7 +13,7 @@ import pytz
 bot = telebot.TeleBot('7402344991:AAEO50oQLETKv8W7gwUSYI77BC7koLdy7X4')
 
 # Admin user IDs
-admin_id = ["2136214036","6685164810"]
+admin_id = ["2136214036","1770317273"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -465,7 +465,7 @@ def broadcast_message(message):
         else:
             response = "Please provide a message to broadcast."
     else:
-        response = "Only @skmwep can run this command."
+        response = "Only @Ghokggyih can run this command."
 
     bot.reply_to(message, response)
 
